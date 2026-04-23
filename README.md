@@ -81,7 +81,7 @@ Body (JSON):
 {
   "input": "What is Machine Learning?",
   "response": "Machine Learning is a subset of Artificial Intelligence that allows systems to learn from data and improve their performance without being explicitly programmed..."
-```
+
 }
 ```
-```
+
