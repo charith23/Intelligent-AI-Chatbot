@@ -56,11 +56,11 @@ ollama run phi3:mini
 pip install -r requirements.txt
 ```
 ```
-###4️⃣ Run Flask App
+### 4️⃣ Run Flask App
 python app.py
 ```
 ```
-###5️⃣ Test API (Postman)
+### 5️⃣ Test API (Postman)
 Method: POST
 URL:
 http://127.0.0.1:5000/chat
@@ -71,14 +71,17 @@ Body (JSON):
 ```
 
 ```
-###📥 Sample Input
+### 📥 Sample Input
 {
   "message": "What is Machine Learning?"
 }
-📤 Sample Output
+```
+```
+### 📤 Sample Output
 {
   "input": "What is Machine Learning?",
   "response": "Machine Learning is a subset of Artificial Intelligence that allows systems to learn from data and improve their performance without being explicitly programmed..."
 ```
 }
+```
 ```
