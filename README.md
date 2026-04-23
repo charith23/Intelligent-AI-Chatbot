@@ -54,8 +54,12 @@ ollama run phi3:mini
 ```
 ### 3️⃣ Install Dependencies
 pip install -r requirements.txt
+```
+```
 ###4️⃣ Run Flask App
 python app.py
+```
+```
 ###5️⃣ Test API (Postman)
 Method: POST
 URL:
@@ -64,6 +68,9 @@ Body (JSON):
 {
   "message": "Explain Artificial Intelligence"
 }
+```
+
+```
 ###📥 Sample Input
 {
   "message": "What is Machine Learning?"
@@ -72,5 +79,6 @@ Body (JSON):
 {
   "input": "What is Machine Learning?",
   "response": "Machine Learning is a subset of Artificial Intelligence that allows systems to learn from data and improve their performance without being explicitly programmed..."
+```
 }
 ```
